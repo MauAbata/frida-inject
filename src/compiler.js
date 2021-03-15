@@ -7,7 +7,7 @@ const parentDir = path.dirname(module.parent.parent.filename)
 
 const babelConfig = {
   presets: ['@babel/preset-env'],
-  plugins: ['@babel/plugin-proposal-object-rest-spread']
+  plugins: []
 }
 
 function moduleExists(name) {
